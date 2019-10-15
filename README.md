@@ -6,3 +6,6 @@ The main page should have an input and allow a user to enter Github's username. 
 Don't bother with design. Here are main criterias for project evaluation:
 1) Project's structure, used tools
 2) Test coverage
+3) Any other good practices.
+
+
