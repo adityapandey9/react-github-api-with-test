@@ -1,4 +1,4 @@
-# xp-fullstack-assignment
+# xanpool-frontend-assigment
 
 Please implement a simple website using any modern framework(we use ReactJS so extra points), that would allow displaying Github user's public repositories.
 The main page should have an input and allow a user to enter Github's username. The second page would display available repositories, and the thrid page would display README.md content of the selected respository. 
