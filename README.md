@@ -4,23 +4,23 @@
 
 ## How to run
 
-Create React App with the template
+Clone React App
 
 ```shell
-git clone
+git clone https://github.com/adityapandey9/react-github-api-with-test.git my-app
 ```
 
-Start and check our example app, if you want
+Start and install packages
 
 ```shell
 cd my-app
-yarn start
+npm install
 ```
 
-Remove the example app to start your project!
+Run project!
 
 ```shell
-yarn cleanAndSetup
+npm run start
 ```
 
 ---
