@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoList <Features /> should render with de translations 1`] = `
+Array [
+  .c0 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 15px 0px;
+  color: rgba(58,52,51,0.7);
+  margin: 0 0 1.5rem 0;
+}
+
+.c0 strong {
+  color: rgba(58,52,51,1);
+}
+
+<p
+    className="c0"
+  >
+    Repo-Liste für
+     
+    <strong>
+      adityapandey9
+    </strong>
+  </p>,
+  .c1 {
+  -webkit-animation: cqkDSr 2.625s linear infinite;
+  animation: cqkDSr 2.625s linear infinite;
+  height: 1.25rem;
+  width: 1.25rem;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+.c2 {
+  -webkit-animation: caVMmK 1.5s ease-in-out infinite;
+  animation: caVMmK 1.5s ease-in-out infinite;
+  stroke: rgba(215,113,88,1);
+  stroke-linecap: round;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.c0 .TextButton-t28xja-0 {
+  margin: 16px 0;
+  font-size: 0.875rem;
+}
+
+<div
+    className="c0"
+  >
+    <svg
+      className="c1"
+      viewBox="-24 -24 48 48"
+    >
+      <circle
+        className="c2"
+        cx="0"
+        cy="0"
+        fill="none"
+        r="20"
+        strokeWidth="4"
+      />
+    </svg>
+  </div>,
+]
+`;
+
+exports[`RepoList <Features /> should render with en translations 1`] = `
+Array [
+  .c0 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 15px 0px;
+  color: rgba(58,52,51,0.7);
+  margin: 0 0 1.5rem 0;
+}
+
+.c0 strong {
+  color: rgba(58,52,51,1);
+}
+
+<p
+    className="c0"
+  >
+    Repo list for
+     
+    <strong>
+      adityapandey9
+    </strong>
+  </p>,
+  .c1 {
+  -webkit-animation: cqkDSr 2.625s linear infinite;
+  animation: cqkDSr 2.625s linear infinite;
+  height: 1.25rem;
+  width: 1.25rem;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+.c2 {
+  -webkit-animation: caVMmK 1.5s ease-in-out infinite;
+  animation: caVMmK 1.5s ease-in-out infinite;
+  stroke: rgba(215,113,88,1);
+  stroke-linecap: round;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.c0 .TextButton-t28xja-0 {
+  margin: 16px 0;
+  font-size: 0.875rem;
+}
+
+<div
+    className="c0"
+  >
+    <svg
+      className="c1"
+      viewBox="-24 -24 48 48"
+    >
+      <circle
+        className="c2"
+        cx="0"
+        cy="0"
+        fill="none"
+        r="20"
+        strokeWidth="4"
+      />
+    </svg>
+  </div>,
+]
+`;

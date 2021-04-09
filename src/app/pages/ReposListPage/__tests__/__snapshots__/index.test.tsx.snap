@@ -1,0 +1,630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoList <RepoListPage /> should render and match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  font-size: 1.25rem;
+  color: rgba(58,52,51,1);
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.c8 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: rgba(58,52,51,0.7);
+  font-size: 0.75rem;
+}
+
+.c10 input[type='radio'] {
+  margin: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+.c10 input[type='radio'] + label {
+  margin: 0;
+  display: inline-block;
+  padding-left: 1.375rem;
+  padding-top: 0.0625rem;
+  position: relative;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: rgba(58,52,51,1);
+  z-index: 1;
+}
+
+.c10 input[type='radio'] + label a {
+  color: rgba(58,52,51,1);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 input[type='radio'] + label::before {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,1);
+  content: '';
+  border: 2px solid rgba(58,52,51,0.12);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.c10 input[type='radio'] + label::after {
+  display: none;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  top: 0.5625rem;
+  left: 0.3125rem;
+  background-color: rgba(255,255,255,1);
+}
+
+.c10 input[type='radio'] + label:hover::before {
+  border-color: rgba(215,113,88,1);
+}
+
+.c10 input[type='radio']:disabled + label {
+  opacity: 0.6;
+  cursor: auto;
+}
+
+.c10 input[type='radio']:disabled + label:hover::before {
+  border-color: rgba(58,52,51,0.12);
+}
+
+.c10 input[type='radio']:focus + label::before {
+  box-shadow: 0 0 0 3px rgba(215,113,88,0.2);
+}
+
+.c10 input[type='radio']:checked + label::before {
+  background-color: rgba(215,113,88,1);
+  border-color: rgba(215,113,88,1);
+}
+
+.c10 input[type='radio']:checked + label::after {
+  display: inline-block;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 .c7 {
+  margin-bottom: 0.625rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 .radio {
+  margin-right: 1.5rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c11 .c7 {
+  margin-bottom: 0.625rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c12 .radio {
+  margin-right: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -1rem;
+}
+
+.c2 {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  box-sizing: content-box;
+}
+
+.c0 {
+  box-shadow: 0 1px 0 0 rgba(58,52,51,0.05);
+  height: 4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,1);
+  z-index: 2;
+}
+
+.c0 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c15 {
+  -webkit-animation: cqkDSr 2.625s linear infinite;
+  animation: cqkDSr 2.625s linear infinite;
+  height: 1.25rem;
+  width: 1.25rem;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+.c16 {
+  -webkit-animation: caVMmK 1.5s ease-in-out infinite;
+  animation: caVMmK 1.5s ease-in-out infinite;
+  stroke: rgba(215,113,88,1);
+  stroke-linecap: round;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.c14 .TextButton-t28xja-0 {
+  margin: 16px 0;
+  font-size: 0.875rem;
+}
+
+.c13 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 15px 0px;
+  color: rgba(58,52,51,0.7);
+  margin: 0 0 1.5rem 0;
+}
+
+.c13 strong {
+  color: rgba(58,52,51,1);
+}
+
+@supports (-webkit-backdrop-filter:blur(10px)) or (backdrop-filter:blur(10px)) {
+  .c0 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.75);
+  }
+}
+
+<body>
+    <div>
+      <header
+        class="c0"
+      >
+        <div
+          class="c1 c2"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4"
+            >
+              Github Api with React
+            </div>
+          </div>
+          <nav
+            class="c5"
+          >
+            <div
+              class="c6"
+            >
+              <label
+                class="c7 c8"
+              >
+                Select Language
+              </label>
+              <div
+                class="c9"
+              >
+                <div
+                  class="c10 radio"
+                >
+                  <input
+                    id="en"
+                    name="language"
+                    type="radio"
+                    value="en"
+                  />
+                  <label
+                    for="en"
+                  >
+                    English
+                  </label>
+                </div>
+                <div
+                  class="c10 radio"
+                >
+                  <input
+                    id="tr"
+                    name="language"
+                    type="radio"
+                    value="de"
+                  />
+                  <label
+                    for="tr"
+                  >
+                    Deutsch
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+            >
+              <label
+                class="c7 c8"
+              >
+                Select Theme
+              </label>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c10 radio"
+                >
+                  <input
+                    checked=""
+                    id="system"
+                    name="theme"
+                    type="radio"
+                    value="system"
+                  />
+                  <label
+                    for="system"
+                  >
+                    System theme
+                  </label>
+                </div>
+                <div
+                  class="c10 radio"
+                >
+                  <input
+                    id="light"
+                    name="theme"
+                    type="radio"
+                    value="light"
+                  />
+                  <label
+                    for="light"
+                  >
+                    Light
+                  </label>
+                </div>
+                <div
+                  class="c10 radio"
+                >
+                  <input
+                    id="dark"
+                    name="theme"
+                    type="radio"
+                    value="dark"
+                  />
+                  <label
+                    for="dark"
+                  >
+                    Dark
+                  </label>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div
+        class="c1 c2"
+      >
+        <p
+          class="c13"
+        >
+          Repo list for
+           
+          <strong>
+            adityapandey9
+          </strong>
+        </p>
+        <div
+          class="c14"
+        >
+          <svg
+            class="c15"
+            viewBox="-24 -24 48 48"
+          >
+            <circle
+              class="c16"
+              cx="0"
+              cy="0"
+              fill="none"
+              r="20"
+              stroke-width="4"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="NavBar__Wrapper-sc-1oapf56-0 kGXkOc"
+    >
+      <div
+        class="PageWrapper-a50wxt-0 bNWwGY"
+      >
+        <div
+          class="Logo__Wrapper-hnbezx-0 eQfBpc"
+        >
+          <div
+            class="Logo__Title-hnbezx-1 bzCWGS"
+          >
+            Github Api with React
+          </div>
+        </div>
+        <nav
+          class="Nav__Wrapper-sc-1uvbbq5-0 eWIjFG"
+        >
+          <div
+            class="LanguageSwitch__Wrapper-sc-1ateqo3-0 fPStBf"
+          >
+            <label
+              class="FormLabel-sc-1aa0nfe-0 RJjV"
+            >
+              Select Language
+            </label>
+            <div
+              class="LanguageSwitch__Languages-sc-1ateqo3-1 exeZUB"
+            >
+              <div
+                class="Radio__Wrapper-zorxgi-0 rcgza radio"
+              >
+                <input
+                  id="en"
+                  name="language"
+                  type="radio"
+                  value="en"
+                />
+                <label
+                  for="en"
+                >
+                  English
+                </label>
+              </div>
+              <div
+                class="Radio__Wrapper-zorxgi-0 rcgza radio"
+              >
+                <input
+                  id="tr"
+                  name="language"
+                  type="radio"
+                  value="de"
+                />
+                <label
+                  for="tr"
+                >
+                  Deutsch
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ThemeSwitch__Wrapper-sc-1e68ti1-0 dijZhm"
+          >
+            <label
+              class="FormLabel-sc-1aa0nfe-0 RJjV"
+            >
+              Select Theme
+            </label>
+            <div
+              class="ThemeSwitch__Themes-sc-1e68ti1-1 gsNONn"
+            >
+              <div
+                class="Radio__Wrapper-zorxgi-0 rcgza radio"
+              >
+                <input
+                  checked=""
+                  id="system"
+                  name="theme"
+                  type="radio"
+                  value="system"
+                />
+                <label
+                  for="system"
+                >
+                  System theme
+                </label>
+              </div>
+              <div
+                class="Radio__Wrapper-zorxgi-0 rcgza radio"
+              >
+                <input
+                  id="light"
+                  name="theme"
+                  type="radio"
+                  value="light"
+                />
+                <label
+                  for="light"
+                >
+                  Light
+                </label>
+              </div>
+              <div
+                class="Radio__Wrapper-zorxgi-0 rcgza radio"
+              >
+                <input
+                  id="dark"
+                  name="theme"
+                  type="radio"
+                  value="dark"
+                />
+                <label
+                  for="dark"
+                >
+                  Dark
+                </label>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div
+      class="PageWrapper-a50wxt-0 bNWwGY"
+    >
+      <p
+        class="Lead-sc-15usmr-0 cYcNCQ"
+      >
+        Repo list for
+         
+        <strong>
+          adityapandey9
+        </strong>
+      </p>
+      <div
+        class="GithubRepoList__Wrapper-sc-6pvkic-0 QKJa-D"
+      >
+        <svg
+          class="LoadingIndicator__Svg-zpsdxi-0 kcaIcm"
+          viewBox="-24 -24 48 48"
+        >
+          <circle
+            class="LoadingIndicator__Circle-zpsdxi-1 RylwQ"
+            cx="0"
+            cy="0"
+            fill="none"
+            r="20"
+            stroke-width="4"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

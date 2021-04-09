@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage <Features /> should render with de translations 1`] = `
+.c4 {
+  border: 2px solid rgba(58,52,51,0.12);
+  border-radius: 4px;
+  color: rgba(58,52,51,1);
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(58,52,51,1);
+  background-color: rgba(255,255,255,1);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  outline: none;
+  height: 2.75rem;
+  padding: 0 0.75rem;
+}
+
+.c4::-webkit-input-placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4::-moz-placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4:-ms-input-placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4::placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4:focus {
+  border-color: rgba(215,113,88,1);
+  box-shadow: 0 0 0 3px rgba(215,113,88,0.2);
+}
+
+.c0 .TextButton-sc-18yutv9-0 {
+  margin: 16px 0;
+  font-size: 0.875rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 .c3 {
+  width: 50%;
+  margin-right: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.c1 .FormLabel-sc-1aa0nfe-0 {
+  margin-bottom: 0.25rem;
+  margin-left: 0.125rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  background: rgba(255,255,255,1);
+  padding: 10px 60px;
+  margin: 20px 0px;
+  border: 1px solid rgb(220,120,95);
+  border-radius: 10px;
+  color: rgba(215,113,88,1);
+  cursor: pointer;
+}
+
+.c5:hover {
+  opacity: 0.8;
+}
+
+.c5:active {
+  opacity: 0.4;
+}
+
+<div
+  className="c0"
+>
+  <form
+    className="c1"
+    onSubmit={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <input
+        className="c3 c4"
+        onChange={[Function]}
+        placeholder="Type any Github username"
+        type="text"
+        value="adityapandey9"
+      />
+    </div>
+    <button
+      className="c5"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;
+
+exports[`HomePage <Features /> should render with en translations 1`] = `
+.c4 {
+  border: 2px solid rgba(58,52,51,0.12);
+  border-radius: 4px;
+  color: rgba(58,52,51,1);
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(58,52,51,1);
+  background-color: rgba(255,255,255,1);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  outline: none;
+  height: 2.75rem;
+  padding: 0 0.75rem;
+}
+
+.c4::-webkit-input-placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4::-moz-placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4:-ms-input-placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4::placeholder {
+  font-weight: 300;
+  color: rgba(58,52,51,0.7);
+}
+
+.c4:focus {
+  border-color: rgba(215,113,88,1);
+  box-shadow: 0 0 0 3px rgba(215,113,88,0.2);
+}
+
+.c0 .TextButton-sc-18yutv9-0 {
+  margin: 16px 0;
+  font-size: 0.875rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 .c3 {
+  width: 50%;
+  margin-right: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.c1 .FormLabel-sc-1aa0nfe-0 {
+  margin-bottom: 0.25rem;
+  margin-left: 0.125rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  background: rgba(255,255,255,1);
+  padding: 10px 60px;
+  margin: 20px 0px;
+  border: 1px solid rgb(220,120,95);
+  border-radius: 10px;
+  color: rgba(215,113,88,1);
+  cursor: pointer;
+}
+
+.c5:hover {
+  opacity: 0.8;
+}
+
+.c5:active {
+  opacity: 0.4;
+}
+
+<div
+  className="c0"
+>
+  <form
+    className="c1"
+    onSubmit={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <input
+        className="c3 c4"
+        onChange={[Function]}
+        placeholder="Type any Github username"
+        type="text"
+        value="adityapandey9"
+      />
+    </div>
+    <button
+      className="c5"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,15 @@
+{
+  "homeSearchPage": {
+    "searchBtnTxt": "Suche",
+    "placeholder": "Geben Sie einen beliebigen Github-Benutzernamen ein"
+  },
+  "repoListPage": {
+    "title": "Repo-Liste für"
+  },
+  "repoInfoPage": {
+    "title": "Repo Info für"
+  },
+  "i18nFeature": {
+    "selectLanguage": "Sprache auswählen"
+  }
+}

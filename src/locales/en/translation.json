@@ -1,0 +1,15 @@
+{
+  "homeSearchPage": {
+    "searchBtnTxt": "Search",
+    "placeholder": "Type any Github username"
+  },
+  "repoListPage": {
+    "title": "Repo list for"
+  },
+  "repoInfoPage": {
+    "title": "Repo info for"
+  },
+  "i18nFeature": {
+    "selectLanguage": "Select Language"
+  }
+}

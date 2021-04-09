@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav /> should match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: rgba(58,52,51,0.7);
+  font-size: 0.75rem;
+}
+
+.c5 input[type='radio'] {
+  margin: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+.c5 input[type='radio'] + label {
+  margin: 0;
+  display: inline-block;
+  padding-left: 1.375rem;
+  padding-top: 0.0625rem;
+  position: relative;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: rgba(58,52,51,1);
+  z-index: 1;
+}
+
+.c5 input[type='radio'] + label a {
+  color: rgba(58,52,51,1);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 input[type='radio'] + label::before {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,1);
+  content: '';
+  border: 2px solid rgba(58,52,51,0.12);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.c5 input[type='radio'] + label::after {
+  display: none;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  top: 0.5625rem;
+  left: 0.3125rem;
+  background-color: rgba(255,255,255,1);
+}
+
+.c5 input[type='radio'] + label:hover::before {
+  border-color: rgba(215,113,88,1);
+}
+
+.c5 input[type='radio']:disabled + label {
+  opacity: 0.6;
+  cursor: auto;
+}
+
+.c5 input[type='radio']:disabled + label:hover::before {
+  border-color: rgba(58,52,51,0.12);
+}
+
+.c5 input[type='radio']:focus + label::before {
+  box-shadow: 0 0 0 3px rgba(215,113,88,0.2);
+}
+
+.c5 input[type='radio']:checked + label::before {
+  background-color: rgba(215,113,88,1);
+  border-color: rgba(215,113,88,1);
+}
+
+.c5 input[type='radio']:checked + label::after {
+  display: inline-block;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 .c2 {
+  margin-bottom: 0.625rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 .radio {
+  margin-right: 1.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 .c2 {
+  margin-bottom: 0.625rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 .radio {
+  margin-right: 1.5rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -1rem;
+}
+
+<body>
+    <div>
+      <nav
+        class="c0"
+      >
+        <div
+          class="c1"
+        >
+          <label
+            class="c2 c3"
+          >
+            Select Language
+          </label>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5 radio"
+            >
+              <input
+                id="en"
+                name="language"
+                type="radio"
+                value="en"
+              />
+              <label
+                for="en"
+              >
+                English
+              </label>
+            </div>
+            <div
+              class="c5 radio"
+            >
+              <input
+                id="tr"
+                name="language"
+                type="radio"
+                value="de"
+              />
+              <label
+                for="tr"
+              >
+                Deutsch
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c6"
+        >
+          <label
+            class="c2 c3"
+          >
+            Select Theme
+          </label>
+          <div
+            class="c7"
+          >
+            <div
+              class="c5 radio"
+            >
+              <input
+                checked=""
+                id="system"
+                name="theme"
+                type="radio"
+                value="system"
+              />
+              <label
+                for="system"
+              >
+                System theme
+              </label>
+            </div>
+            <div
+              class="c5 radio"
+            >
+              <input
+                id="light"
+                name="theme"
+                type="radio"
+                value="light"
+              />
+              <label
+                for="light"
+              >
+                Light
+              </label>
+            </div>
+            <div
+              class="c5 radio"
+            >
+              <input
+                id="dark"
+                name="theme"
+                type="radio"
+                value="dark"
+              />
+              <label
+                for="dark"
+              >
+                Dark
+              </label>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="Nav__Wrapper-sc-1uvbbq5-0 eWIjFG"
+    >
+      <div
+        class="LanguageSwitch__Wrapper-sc-1ateqo3-0 fPStBf"
+      >
+        <label
+          class="FormLabel-sc-1aa0nfe-0 RJjV"
+        >
+          Select Language
+        </label>
+        <div
+          class="LanguageSwitch__Languages-sc-1ateqo3-1 exeZUB"
+        >
+          <div
+            class="Radio__Wrapper-zorxgi-0 rcgza radio"
+          >
+            <input
+              id="en"
+              name="language"
+              type="radio"
+              value="en"
+            />
+            <label
+              for="en"
+            >
+              English
+            </label>
+          </div>
+          <div
+            class="Radio__Wrapper-zorxgi-0 rcgza radio"
+          >
+            <input
+              id="tr"
+              name="language"
+              type="radio"
+              value="de"
+            />
+            <label
+              for="tr"
+            >
+              Deutsch
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ThemeSwitch__Wrapper-sc-1e68ti1-0 dijZhm"
+      >
+        <label
+          class="FormLabel-sc-1aa0nfe-0 RJjV"
+        >
+          Select Theme
+        </label>
+        <div
+          class="ThemeSwitch__Themes-sc-1e68ti1-1 gsNONn"
+        >
+          <div
+            class="Radio__Wrapper-zorxgi-0 rcgza radio"
+          >
+            <input
+              checked=""
+              id="system"
+              name="theme"
+              type="radio"
+              value="system"
+            />
+            <label
+              for="system"
+            >
+              System theme
+            </label>
+          </div>
+          <div
+            class="Radio__Wrapper-zorxgi-0 rcgza radio"
+          >
+            <input
+              id="light"
+              name="theme"
+              type="radio"
+              value="light"
+            />
+            <label
+              for="light"
+            >
+              Light
+            </label>
+          </div>
+          <div
+            class="Radio__Wrapper-zorxgi-0 rcgza radio"
+          >
+            <input
+              id="dark"
+              name="theme"
+              type="radio"
+              value="dark"
+            />
+            <label
+              for="dark"
+            >
+              Dark
+            </label>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

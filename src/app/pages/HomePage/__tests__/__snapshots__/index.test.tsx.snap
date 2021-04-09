@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <Helmet
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Github User Name Search Page
+    </title>
+    <meta
+      content="Search using Github Username"
+      name="description"
+    />
+  </Helmet>
+  <NavBar />
+  <PageWrapper>
+    <Masthead />
+    <Features />
+  </PageWrapper>
+</React.Fragment>
+`;
